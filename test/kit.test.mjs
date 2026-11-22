@@ -133,11 +133,13 @@ test('self dossier: lints clean, 5 to 15 cited claims, every claim pinned', () =
   const run = (...a) => spawnSync(process.execPath, [BIN, '--root', ROOT, ...a], { encoding: 'utf8' });
   const lint = run('lint');
   assert.equal(lint.status, 0, lint.stdout + lint.stderr);
-  const doc = JSON.parse(run('check', '--json').stdout).docs[0];
-  assert.equal(doc.slug, 'dossier-scribe');
+  const docs = JSON.parse(run('check', '--json').stdout).docs;
+  const doc = docs.find((d) => d.slug === 'dossier-scribe');
+  assert.ok(doc, 'the self dossier is loaded');
   const cited = doc.claims.filter((c) => c.status !== 'uncited');
   assert.ok(cited.length >= 5 && cited.length <= 15, `claims: ${cited.length}`);
-  assert.equal(doc.claims.filter((c) => ['new', 'removed', 'uncited'].includes(c.status)).length, 0);
+  // The pinned project docs (AGENTS.md, docs/ARCHITECTURE.md) sit in the same folder and must be pinned too.
+  assert.equal(docs.flatMap((d) => d.claims).filter((c) => ['new', 'removed', 'uncited'].includes(c.status)).length, 0);
 });
 
 // sync-issue.sh against a stub `gh`: the stub reports one existing open issue (or none)
