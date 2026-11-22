@@ -385,6 +385,1614 @@
       },
       "pinnedAt": "2026-11-10T10:12:24.188Z",
       "head": "3a2dfc60b80b019037746e1fef60774559cd18a7"
+    },
+    "dossier-scribe-agents": {
+      "claims": {
+        "dfdb9ac0443f": {
+          "text": "Run every test with `npm test`, which is `node --test`.",
+          "line": 15,
+          "specs": [
+            "package.json#scripts.test"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "package.json#scripts.test": {
+              "path": "package.json",
+              "blob": "28cb798393edd4f8e44c00a3cecea73242c8f491",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "jsonKey": {
+                "key": "scripts.test",
+                "hash": "d81653e8dc31c80ca8b4ff59a118d16301d68cfc",
+                "value": "\"node --test\""
+              }
+            }
+          }
+        },
+        "7a8676c256ef": {
+          "text": "Run one test file while iterating: `node --test test/pin-check.test.mjs`.",
+          "line": 16,
+          "specs": [
+            "CONTRIBUTING.md:15-17"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "11df8d8eed041e2fe557eb89a145b6e7093a91f3",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 15,
+                "end": 17,
+                "hash": "8322f1b9b01028705c782a3928bbaccca74290ca"
+              }
+            }
+          }
+        },
+        "6408c83f3072": {
+          "text": "Run the CLI from a checkout with `node bin/dossier-scribe.mjs <command>`. The installed names are `dossier-scribe` and `dscribe`.",
+          "line": 17,
+          "specs": [
+            "package.json#bin",
+            "bin/dossier-scribe.mjs:1-4"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "package.json#bin": {
+              "path": "package.json",
+              "blob": "28cb798393edd4f8e44c00a3cecea73242c8f491",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "jsonKey": {
+                "key": "bin",
+                "hash": "a49a91d2585ffa26bcf2c81c88efedabd874cdaf",
+                "value": "{\"dossier-scribe\":\"bin/dossier-scribe.mjs\",\"dscribe\":\"bin/dossier-scribe.mjs\"}"
+              }
+            },
+            "bin/dossier-scribe.mjs": {
+              "path": "bin/dossier-scribe.mjs",
+              "blob": "7c5aaf52f15c7203f8ad3c6ddc576570a2655672",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "d789ae38d11d04d1000b07b899bca2bc4d419b9e"
+              }
+            }
+          }
+        },
+        "6589c9655087": {
+          "text": "See it work end to end with `node bin/dossier-scribe.mjs demo`, which builds a throwaway repo in a temp directory.",
+          "line": 18,
+          "specs": [
+            "src/commands/demo.mjs:35",
+            "CONTRIBUTING.md:17"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/commands/demo.mjs": {
+              "path": "src/commands/demo.mjs",
+              "blob": "64fd71232cea8b152de545f791b449709d5eaf2d",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 35,
+                "end": 35,
+                "hash": "5908107a1f85ba844224181657e0c0de6743bbf2"
+              }
+            },
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "11df8d8eed041e2fe557eb89a145b6e7093a91f3",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 17,
+                "end": 17,
+                "hash": "184245ac602d43a1974b74847ee18ab933eaca0b"
+              }
+            }
+          }
+        },
+        "b04b28821a8e": {
+          "text": "There is no build, lint, format or typecheck step: the only script is `test`. CI runs `node --test` on Node 22 and 24.",
+          "line": 19,
+          "specs": [
+            "package.json#scripts",
+            ".github/workflows/ci.yml:18-32"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "package.json#scripts": {
+              "path": "package.json",
+              "blob": "28cb798393edd4f8e44c00a3cecea73242c8f491",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "jsonKey": {
+                "key": "scripts",
+                "hash": "9e1a4e4bf3a6bb65513545cd2424c565c6465d9c",
+                "value": "{\"test\":\"node --test\"}"
+              }
+            },
+            ".github/workflows/ci.yml": {
+              "path": ".github/workflows/ci.yml",
+              "blob": "0365bd111a5ea9a4cb80e27792cda3143ef067fe",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "range": {
+                "start": 18,
+                "end": 32,
+                "hash": "6df851a9cf8c7d9989141a3b50d568329d86fff0"
+              }
+            }
+          }
+        },
+        "81a10d76e4f7": {
+          "text": "This repo's own docs are pinned, so after editing a cited file or a pinned doc run `node bin/dossier-scribe.mjs lint`, then `check`, then `pin --all`, and co...",
+          "line": 20,
+          "specs": [
+            "dossier-scribe.json",
+            ".github/workflows/ci.yml:34-41",
+            "src/lock.mjs:5"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "dossier-scribe.json": {
+              "path": "dossier-scribe.json",
+              "blob": "64af1923e4241168fb787ea068ab3196937ab42f",
+              "commit": "2634c4a75a5a81d15ec9b1e3992b055921afba47"
+            },
+            ".github/workflows/ci.yml": {
+              "path": ".github/workflows/ci.yml",
+              "blob": "0365bd111a5ea9a4cb80e27792cda3143ef067fe",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "range": {
+                "start": 34,
+                "end": 41,
+                "hash": "6dee6f6aa106dae6f7b273732165f6ad9ece4deb"
+              }
+            },
+            "src/lock.mjs": {
+              "path": "src/lock.mjs",
+              "blob": "f1574a1fdd009ba52995d4e60edc3e039a27e34f",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 5,
+                "end": 5,
+                "hash": "09b97f8fa2f6667f66bf4f187ffdbf17a47d7bb2"
+              }
+            }
+          }
+        },
+        "f04ba45e1915": {
+          "text": "Regenerate the README terminal image with `node scripts/render-assets.mjs`.",
+          "line": 21,
+          "specs": [
+            "scripts/render-assets.mjs:1-2"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "scripts/render-assets.mjs": {
+              "path": "scripts/render-assets.mjs",
+              "blob": "4a441598e52c018eafbac604d20543d1ba0c0e09",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 1,
+                "end": 2,
+                "hash": "600a252dc7c32a3bb65d33fde7c722b0411fc963"
+              }
+            }
+          }
+        },
+        "265c622bc124": {
+          "text": "Release by adding a `## [x.y.z] - date` section to CHANGELOG.md and running `npm version <patch|minor|major> --no-git-tag-version`; merging that publishes.",
+          "line": 22,
+          "specs": [
+            "CONTRIBUTING.md:42",
+            ".github/workflows/publish.yml:20-23"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "11df8d8eed041e2fe557eb89a145b6e7093a91f3",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 42,
+                "end": 42,
+                "hash": "c82e7ea447effe83186e8b5194d9cc7b94b586f8"
+              }
+            },
+            ".github/workflows/publish.yml": {
+              "path": ".github/workflows/publish.yml",
+              "blob": "1292ee066a6372b2e48b3f190bd1186a49d9823c",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 20,
+                "end": 23,
+                "hash": "e90769049aaaee363bd9649e853b9724049ae3be"
+              }
+            }
+          }
+        },
+        "5bb09552386e": {
+          "text": "ES modules, Node 22 built-ins only, no runtime or dev dependencies. A test fails if `package.json` gains any.",
+          "line": 26,
+          "specs": [
+            "package.json#type",
+            "package.json#engines.node",
+            "test/cli.test.mjs:77-84"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "package.json#type": {
+              "path": "package.json",
+              "blob": "28cb798393edd4f8e44c00a3cecea73242c8f491",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "jsonKey": {
+                "key": "type",
+                "hash": "104552135e0a03cc60690d55ea338c29215ae902",
+                "value": "\"module\""
+              }
+            },
+            "package.json#engines.node": {
+              "path": "package.json",
+              "blob": "28cb798393edd4f8e44c00a3cecea73242c8f491",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "jsonKey": {
+                "key": "engines.node",
+                "hash": "02bc192b69d35e23c1375adfa8377c787dc525d5",
+                "value": "\">=22\""
+              }
+            },
+            "test/cli.test.mjs": {
+              "path": "test/cli.test.mjs",
+              "blob": "9c08c37e8be9c83c9938d38808c835fb5f567553",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 77,
+                "end": 84,
+                "hash": "6c220e4dab0b588000810bbe2b6917ebd70f2e8e"
+              }
+            }
+          }
+        },
+        "60adbb203374": {
+          "text": "One module per command in `src/commands/`, each exporting `run`, and registered in the `COMMANDS` table in `src/cli.mjs`.",
+          "line": 27,
+          "specs": [
+            "src/cli.mjs:33-43",
+            "src/commands/lint.mjs:5"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/cli.mjs": {
+              "path": "src/cli.mjs",
+              "blob": "8e2cceca8f6fac26057479d9b8d4f422adea9493",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 33,
+                "end": 43,
+                "hash": "5a77eea76e54761103ac1acd8014519e3937e12c"
+              }
+            },
+            "src/commands/lint.mjs": {
+              "path": "src/commands/lint.mjs",
+              "blob": "8254f893c2b271654e07c4e7814881147a08eb41",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 5,
+                "end": 5,
+                "hash": "f642ec6c674a31c3c8cd86ad066e6ab8601aead8"
+              }
+            }
+          }
+        },
+        "2a21feb24058": {
+          "text": "Exit codes: 0 clean, 1 findings, 2 usage or config error.",
+          "line": 28,
+          "specs": [
+            "src/cli.mjs:59-61",
+            "src/commands/check.mjs:37"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/cli.mjs": {
+              "path": "src/cli.mjs",
+              "blob": "8e2cceca8f6fac26057479d9b8d4f422adea9493",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 59,
+                "end": 61,
+                "hash": "2da6df52e2355b03304c1d09638bd2da06b5d838"
+              }
+            },
+            "src/commands/check.mjs": {
+              "path": "src/commands/check.mjs",
+              "blob": "f63c4b469f1b15eea87a38cf8bad4e49e11f7e9d",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 37,
+                "end": 37,
+                "hash": "3422a0be3e963939e31cbf52958b6f1b33ec0782"
+              }
+            }
+          }
+        },
+        "22ff90e950c9": {
+          "text": "The tool makes no network or model calls and never rewrites dossier prose. It pins, checks, regenerates the auto block and writes task files.",
+          "line": 29,
+          "specs": [
+            "CONTRIBUTING.md:8",
+            "src/dossiers.mjs:92-100"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "11df8d8eed041e2fe557eb89a145b6e7093a91f3",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 8,
+                "end": 8,
+                "hash": "6e5aa6e76e79004565483cc3855bec1d8ac292bf"
+              }
+            },
+            "src/dossiers.mjs": {
+              "path": "src/dossiers.mjs",
+              "blob": "b036c1fbed22331aad6e19bf6708223c402a74e5",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 92,
+                "end": 100,
+                "hash": "56ca7ae84204a7097dfb8b9db5ae707ea42552b5"
+              }
+            }
+          }
+        },
+        "e84e0c815f19": {
+          "text": "Tests build real temporary git repos and run the CLI as a black box. Git is never mocked.",
+          "line": 30,
+          "specs": [
+            "test/helpers.mjs:1",
+            "CONTRIBUTING.md:9"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "test/helpers.mjs": {
+              "path": "test/helpers.mjs",
+              "blob": "6fc609e3445ff26d901e7acf1ba92ad80334d065",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 1,
+                "end": 1,
+                "hash": "9880b8c5763ca2c01ed367a961efab8748b3bc28"
+              }
+            },
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "11df8d8eed041e2fe557eb89a145b6e7093a91f3",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 9,
+                "end": 9,
+                "hash": "95c8fff51e7534ea51260cfd75ca67095628a30e"
+              }
+            }
+          }
+        },
+        "8c9ce01131f0": {
+          "text": "Write the failing test first. A change to a guard (env value redaction, range-only hashing, the queue cooldown) needs a test that goes red when the guard is ...",
+          "line": 31,
+          "specs": [
+            "CONTRIBUTING.md:20"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "11df8d8eed041e2fe557eb89a145b6e7093a91f3",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 20,
+                "end": 20,
+                "hash": "661f7ea235ff2c8639826736de8a7d4515dbcc88"
+              }
+            }
+          }
+        },
+        "f41597d41e3e": {
+          "text": "No personal data, em dashes or attribution trailers anywhere in the tree, docs included. `test/hygiene.test.mjs` fails on the banned strings it lists.",
+          "line": 32,
+          "specs": [
+            "test/hygiene.test.mjs:9-32"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "test/hygiene.test.mjs": {
+              "path": "test/hygiene.test.mjs",
+              "blob": "056a3d905a514a93f5064c9927fabe362f98ab37",
+              "commit": "5a7be3f96b8c216c248f4b24c850e7d45ae4f9b6",
+              "range": {
+                "start": 9,
+                "end": 32,
+                "hash": "adcd13624ffeeac872556f41d065cbf96835d0b6"
+              }
+            }
+          }
+        },
+        "9f1516ac204f": {
+          "text": "Every commit carries a DCO sign-off (`git commit -s`). There is no CLA.",
+          "line": 33,
+          "specs": [
+            "CONTRIBUTING.md:26"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "11df8d8eed041e2fe557eb89a145b6e7093a91f3",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 26,
+                "end": 26,
+                "hash": "f2e0f63924f28ac780976938ee143371f2d2ebff"
+              }
+            }
+          }
+        },
+        "b68595909b3d": {
+          "text": "Third-party actions are pinned by full SHA, and every workflow job declares least-privilege permissions. Tests enforce both.",
+          "line": 34,
+          "specs": [
+            "test/kit.test.mjs:36-55"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "test/kit.test.mjs": {
+              "path": "test/kit.test.mjs",
+              "blob": "bd6016293e79c5b498c8cf9ffa1714dbce2f06de",
+              "commit": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+              "range": {
+                "start": 36,
+                "end": 55,
+                "hash": "05f2e070ad8cba46626be82e80efaebfd266a9c8"
+              }
+            }
+          }
+        },
+        "e9c26f8ce559": {
+          "text": "The pinned docs are linked into `dossiers/` (`agents.md`, `architecture.md`) because the tool reads one flat folder. `requireCitations` in `dossier-scribe.js...",
+          "line": 35,
+          "specs": [
+            "dossier-scribe.json",
+            "src/dossiers.mjs:26-27"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "dossier-scribe.json": {
+              "path": "dossier-scribe.json",
+              "blob": "64af1923e4241168fb787ea068ab3196937ab42f",
+              "commit": "2634c4a75a5a81d15ec9b1e3992b055921afba47"
+            },
+            "src/dossiers.mjs": {
+              "path": "src/dossiers.mjs",
+              "blob": "b036c1fbed22331aad6e19bf6708223c402a74e5",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 26,
+                "end": 27,
+                "hash": "dcfb7a629b85bb4598a1f9376800cc40970102a9"
+              }
+            }
+          }
+        },
+        "9d0ab1abaa3f": {
+          "text": "Every git read is against `HEAD`. Uncommitted edits to a cited file are not drift, and a file that is not committed cannot be cited, so commit before you `li...",
+          "line": 39,
+          "specs": [
+            "src/git.mjs:48-58",
+            "src/commands/pin.mjs:28"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/git.mjs": {
+              "path": "src/git.mjs",
+              "blob": "15fa3f1bf1d41d886f3a95950fc6845be7eb87bf",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 48,
+                "end": 58,
+                "hash": "b5e1255d49e823d744afbf0f323f0c51f3614c2b"
+              }
+            },
+            "src/commands/pin.mjs": {
+              "path": "src/commands/pin.mjs",
+              "blob": "88e1b33d2bc2d2375bf07451355403406a8d1889",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 28,
+                "end": 28,
+                "hash": "70dffd5f6510a5b36f7f4bbc723d24cc181a547d"
+              }
+            }
+          }
+        },
+        "4bc902af155c": {
+          "text": "Cite the narrowest thing: a line range or a JSON key such as `package.json#engines.node`. A whole `package.json` changes every release and flags every claim ...",
+          "line": 40,
+          "specs": [
+            "src/check.mjs:252"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/check.mjs": {
+              "path": "src/check.mjs",
+              "blob": "5b4dfe1328e578fc4dffdfbfd81de7c051f1b2ae",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 252,
+                "end": 252,
+                "hash": "f03cb8c85b87de60e4e72f3c4e07aaf42686d7e1"
+              }
+            }
+          }
+        },
+        "6d9597be0a9a": {
+          "text": "A claim is a list item or paragraph with exactly one source comment at its end, the HTML comment that starts `src:`. Two of them, or text after one, is a lin...",
+          "line": 41,
+          "specs": [
+            "src/claims.mjs:49-55"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/claims.mjs": {
+              "path": "src/claims.mjs",
+              "blob": "407a34a7db853c989e28b55ad9cadc3610923141",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 49,
+                "end": 55,
+                "hash": "722149ae9feb441cdd01f9166102e4235d49336b"
+              }
+            }
+          }
+        },
+        "0c940ea88552": {
+          "text": "A claim's id is a hash of its normalised text, so rewording a claim shows the old one as `REMOVED` and the new one as `NEW` until you re-pin.",
+          "line": 42,
+          "specs": [
+            "src/claims.mjs:15-17"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/claims.mjs": {
+              "path": "src/claims.mjs",
+              "blob": "407a34a7db853c989e28b55ad9cadc3610923141",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 15,
+                "end": 17,
+                "hash": "555a8e87445d68adf581f1183bcc6921ae91c53f"
+              }
+            }
+          }
+        },
+        "ba5e1bbb8d0a": {
+          "text": "The frontmatter parser takes plain `key: value` lines and flat inline lists only. Nesting, block lists and trailing comments are errors.",
+          "line": 43,
+          "specs": [
+            "src/frontmatter.mjs:1-7"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/frontmatter.mjs": {
+              "path": "src/frontmatter.mjs",
+              "blob": "bf9e6b487968f3bae6d51f8b9d7bbd1c5146c4b6",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 1,
+                "end": 7,
+                "hash": "0800f5bd36e8a8189867a3cd8025945c9331aada"
+              }
+            }
+          }
+        },
+        "c5137b2b947b": {
+          "text": "The loader skips files starting with `.` or `_` and any `readme.md`, so those in `dossiers/` are never read as dossiers.",
+          "line": 44,
+          "specs": [
+            "src/dossiers.mjs:26-27"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/dossiers.mjs": {
+              "path": "src/dossiers.mjs",
+              "blob": "b036c1fbed22331aad6e19bf6708223c402a74e5",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 26,
+                "end": 27,
+                "hash": "dcfb7a629b85bb4598a1f9376800cc40970102a9"
+              }
+            }
+          }
+        },
+        "7c80f578724e": {
+          "text": "`auto` appends an auto block to any dossier that has none, and the weekly upkeep workflow runs `auto --check` over every file in `dossiers/`. Check the linke...",
+          "line": 45,
+          "specs": [
+            "src/commands/auto.mjs:15",
+            ".github/workflows/upkeep.yml:70"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/commands/auto.mjs": {
+              "path": "src/commands/auto.mjs",
+              "blob": "9aaf85bf05140a2b32fd20db9ab55f148fca3c59",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 15,
+                "end": 15,
+                "hash": "05338773a7b474830c4835cada86693bbe4352a5"
+              }
+            },
+            ".github/workflows/upkeep.yml": {
+              "path": ".github/workflows/upkeep.yml",
+              "blob": "1471752673bea1265ba50fbe3e79e2c85e705368",
+              "commit": "e9098f90ab30104e77457dfebd445f3f389a4a80",
+              "range": {
+                "start": 70,
+                "end": 70,
+                "hash": "37a22bcd25f45f8e9ff8bf4f83261e0e284069c7"
+              }
+            }
+          }
+        },
+        "d4382a7e03d2": {
+          "text": "The weekly upkeep workflow installs dossier-scribe from a pinned release tag, not from the checkout, so a new command or flag is not seen there until the tag...",
+          "line": 46,
+          "specs": [
+            ".github/workflows/upkeep.yml:62"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            ".github/workflows/upkeep.yml": {
+              "path": ".github/workflows/upkeep.yml",
+              "blob": "1471752673bea1265ba50fbe3e79e2c85e705368",
+              "commit": "e9098f90ab30104e77457dfebd445f3f389a4a80",
+              "range": {
+                "start": 62,
+                "end": 62,
+                "hash": "f26e0f435f8b2dd1bf4368e4521d4258a544d103"
+              }
+            }
+          }
+        },
+        "27f2c3acccc3": {
+          "text": "Merging a change to `package.json` on main starts the publish workflow, which releases any version npm or GitHub does not have yet. Do not bump the version b...",
+          "line": 47,
+          "specs": [
+            ".github/workflows/publish.yml:20-23",
+            "scripts/release.mjs:33-47"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            ".github/workflows/publish.yml": {
+              "path": ".github/workflows/publish.yml",
+              "blob": "1292ee066a6372b2e48b3f190bd1186a49d9823c",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 20,
+                "end": 23,
+                "hash": "e90769049aaaee363bd9649e853b9724049ae3be"
+              }
+            },
+            "scripts/release.mjs": {
+              "path": "scripts/release.mjs",
+              "blob": "e70ecb0f7980b04b002e50593e19d88c5c319c69",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 33,
+                "end": 47,
+                "hash": "f7f43d3ad6b3352bed063c20006f4025884a16bd"
+              }
+            }
+          }
+        },
+        "f9f6f5e5e1aa": {
+          "text": "`package.json#files` lists what npm ships: `bin`, `src`, `examples`, LICENSE and README.md. `docs/` and `dossiers/` are not in the package.",
+          "line": 48,
+          "specs": [
+            "package.json#files"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "package.json#files": {
+              "path": "package.json",
+              "blob": "28cb798393edd4f8e44c00a3cecea73242c8f491",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "jsonKey": {
+                "key": "files",
+                "hash": "2abadacee52ddaa7d0b3f164f370beccf11a131a",
+                "value": "[\"bin\",\"src\",\"examples\",\"LICENSE\",\"README.md\"]"
+              }
+            }
+          }
+        },
+        "e2fccb26af35": {
+          "text": "Whether Windows works. The README says it is untested.",
+          "line": 52,
+          "specs": [
+            "README.md:68"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "README.md": {
+              "path": "README.md",
+              "blob": "19ea7410fde18a67705f8d792facb361a88404f2",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "range": {
+                "start": 68,
+                "end": 68,
+                "hash": "b765efd2bd6009a69a9a6729f0e9345fed384c11"
+              }
+            }
+          }
+        }
+      },
+      "pinnedAt": "2026-11-22T08:59:58.713Z",
+      "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47"
+    },
+    "dossier-scribe-architecture": {
+      "claims": {
+        "fb1d01d8b824": {
+          "text": "A command line tool in plain Node 22 ES modules with no dependencies. It reads markdown docs and the git history of the repo they describe, and writes a lock...",
+          "line": 11,
+          "specs": [
+            "package.json#type",
+            "package.json#engines.node",
+            "test/cli.test.mjs:77-84"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "package.json#type": {
+              "path": "package.json",
+              "blob": "28cb798393edd4f8e44c00a3cecea73242c8f491",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "jsonKey": {
+                "key": "type",
+                "hash": "104552135e0a03cc60690d55ea338c29215ae902",
+                "value": "\"module\""
+              }
+            },
+            "package.json#engines.node": {
+              "path": "package.json",
+              "blob": "28cb798393edd4f8e44c00a3cecea73242c8f491",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "jsonKey": {
+                "key": "engines.node",
+                "hash": "02bc192b69d35e23c1375adfa8377c787dc525d5",
+                "value": "\">=22\""
+              }
+            },
+            "test/cli.test.mjs": {
+              "path": "test/cli.test.mjs",
+              "blob": "9c08c37e8be9c83c9938d38808c835fb5f567553",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 77,
+                "end": 84,
+                "hash": "6c220e4dab0b588000810bbe2b6917ebd70f2e8e"
+              }
+            }
+          }
+        },
+        "fd2cef040356": {
+          "text": "Entry point: `bin/dossier-scribe.mjs` calls `main` in `src/cli.mjs`, which splits the global `--root`, loads the config, and imports the command module by name.",
+          "line": 28,
+          "specs": [
+            "bin/dossier-scribe.mjs:1-4",
+            "src/cli.mjs:45-65"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "bin/dossier-scribe.mjs": {
+              "path": "bin/dossier-scribe.mjs",
+              "blob": "7c5aaf52f15c7203f8ad3c6ddc576570a2655672",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 1,
+                "end": 4,
+                "hash": "d789ae38d11d04d1000b07b899bca2bc4d419b9e"
+              }
+            },
+            "src/cli.mjs": {
+              "path": "src/cli.mjs",
+              "blob": "8e2cceca8f6fac26057479d9b8d4f422adea9493",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 45,
+                "end": 65,
+                "hash": "1f67351a621ef820b07780b1cf05de62ed2cbb62"
+              }
+            }
+          }
+        },
+        "1ece6ea8ab93": {
+          "text": "Commands: `init`, `lint`, `pin`, `check`, `queue`, `verify`, `auto`, `report` and `demo`, one module each in `src/commands/`. `demo` is the only one that ski...",
+          "line": 29,
+          "specs": [
+            "src/cli.mjs:33-43",
+            "src/cli.mjs:54"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/cli.mjs": {
+              "path": "src/cli.mjs",
+              "blob": "8e2cceca8f6fac26057479d9b8d4f422adea9493",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 33,
+                "end": 43,
+                "hash": "5a77eea76e54761103ac1acd8014519e3937e12c"
+              }
+            },
+            "src/cli.mjs:54-54": {
+              "path": "src/cli.mjs",
+              "blob": "8e2cceca8f6fac26057479d9b8d4f422adea9493",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 54,
+                "end": 54,
+                "hash": "2c7ff07d7581dcd6b691d41b00997e05d73d7024"
+              }
+            }
+          }
+        },
+        "db77c3e7372f": {
+          "text": "Config: `src/config.mjs` reads `dossier-scribe.json` and merges it over defaults. Unknown collector names and a bad `uncitedSeverity` are usage errors.",
+          "line": 30,
+          "specs": [
+            "src/config.mjs:7-41"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/config.mjs": {
+              "path": "src/config.mjs",
+              "blob": "1c7aa207536b781aa495fd24cd1bfae131b1177b",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 7,
+                "end": 41,
+                "hash": "5979ccb7fdf62437cf6c72140cd52c94c98eef54"
+              }
+            }
+          }
+        },
+        "39544b956bdf": {
+          "text": "Dossier loader: `src/dossiers.mjs` lists the `.md` files in the dossiers folder, parses frontmatter with `src/frontmatter.mjs` and extracts claims with `src/...",
+          "line": 31,
+          "specs": [
+            "src/dossiers.mjs:22-62",
+            "src/frontmatter.mjs:19-54",
+            "src/claims.mjs:19-121"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/dossiers.mjs": {
+              "path": "src/dossiers.mjs",
+              "blob": "b036c1fbed22331aad6e19bf6708223c402a74e5",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 22,
+                "end": 62,
+                "hash": "fb3612aa7931a8b1b85138c4be3a86c64809366e"
+              }
+            },
+            "src/frontmatter.mjs": {
+              "path": "src/frontmatter.mjs",
+              "blob": "bf9e6b487968f3bae6d51f8b9d7bbd1c5146c4b6",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 19,
+                "end": 54,
+                "hash": "a43cb40fd79cd704bcece489afc85185e71026fb"
+              }
+            },
+            "src/claims.mjs": {
+              "path": "src/claims.mjs",
+              "blob": "407a34a7db853c989e28b55ad9cadc3610923141",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 19,
+                "end": 121,
+                "hash": "350b55019c90563658c7dfa7a54513b889dd9975"
+              }
+            }
+          }
+        },
+        "c50bca5ccfe1": {
+          "text": "Git wrapper: `src/git.mjs` is a thin batched layer over the `git` CLI: one `ls-tree` for the tree, one `cat-file --batch` for blobs, and `log` and `diff --nu...",
+          "line": 32,
+          "specs": [
+            "src/git.mjs:13-17",
+            "src/git.mjs:48-58",
+            "src/git.mjs:63-67",
+            "src/git.mjs:93-121"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/git.mjs": {
+              "path": "src/git.mjs",
+              "blob": "15fa3f1bf1d41d886f3a95950fc6845be7eb87bf",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 13,
+                "end": 17,
+                "hash": "504cb590c2dfd266f8123fcd2d48dae51f6550d6"
+              }
+            },
+            "src/git.mjs:48-58": {
+              "path": "src/git.mjs",
+              "blob": "15fa3f1bf1d41d886f3a95950fc6845be7eb87bf",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 48,
+                "end": 58,
+                "hash": "b5e1255d49e823d744afbf0f323f0c51f3614c2b"
+              }
+            },
+            "src/git.mjs:63-67": {
+              "path": "src/git.mjs",
+              "blob": "15fa3f1bf1d41d886f3a95950fc6845be7eb87bf",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 63,
+                "end": 67,
+                "hash": "821d4a3e03fb0b0ffe60c115840ab5c5d2a00c3c"
+              }
+            },
+            "src/git.mjs:93-121": {
+              "path": "src/git.mjs",
+              "blob": "15fa3f1bf1d41d886f3a95950fc6845be7eb87bf",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 93,
+                "end": 121,
+                "hash": "1f1a4c201de04f6ede1dbee882f8f8dce476f5c4"
+              }
+            }
+          }
+        },
+        "84823b3bfbb4": {
+          "text": "Pin and check: `src/pin.mjs` builds lock records, and `src/check.mjs` compares them with HEAD and labels each claim `ok`, `stale`, `moved`, `broken`, `new`, ...",
+          "line": 33,
+          "specs": [
+            "src/pin.mjs:94-154",
+            "src/check.mjs:26-172"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/pin.mjs": {
+              "path": "src/pin.mjs",
+              "blob": "900e079d7c278a212921a55d907f60ef94846e12",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 94,
+                "end": 154,
+                "hash": "23524089d009b029ac3dabac093068be50f997ce"
+              }
+            },
+            "src/check.mjs": {
+              "path": "src/check.mjs",
+              "blob": "5b4dfe1328e578fc4dffdfbfd81de7c051f1b2ae",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 26,
+                "end": 172,
+                "hash": "0c9910aa546c1d1310ec7ebe03ae85a714699166"
+              }
+            }
+          }
+        },
+        "4e72b135419f": {
+          "text": "Lint: `src/lint.mjs` checks frontmatter, that cited paths, keys and ranges exist at HEAD, and duplicate slugs.",
+          "line": 34,
+          "specs": [
+            "src/lint.mjs:14-88"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/lint.mjs": {
+              "path": "src/lint.mjs",
+              "blob": "262d353a13ca8a504d9fb8cd70fc8f92ffa80121",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 14,
+                "end": 88,
+                "hash": "ff778df80e8662473030d3af479c7c721d53e03d"
+              }
+            }
+          }
+        },
+        "64b665b11a76": {
+          "text": "Queue tasks: `src/task.mjs` builds one re-verify task per drifted doc and renders it as markdown, JSON or a coding-agent prompt.",
+          "line": 35,
+          "specs": [
+            "src/task.mjs:18-144",
+            "src/commands/queue.mjs:11-15"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/task.mjs": {
+              "path": "src/task.mjs",
+              "blob": "e5bccd1d510f49f408683a92d0f3127ad0c59b47",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 18,
+                "end": 144,
+                "hash": "714ff9f23ce0a59f1c809fbe5a650061bd820f61"
+              }
+            },
+            "src/commands/queue.mjs": {
+              "path": "src/commands/queue.mjs",
+              "blob": "91f37ea70fedd15dbfdecd7df8b66b7b89d6da50",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 11,
+                "end": 15,
+                "hash": "12fb1d9ee85f18f64842b265467552a0c8d8ed7f"
+              }
+            }
+          }
+        },
+        "38169231400d": {
+          "text": "Collectors: `src/collectors.mjs` reads committed manifests for the auto block (package, python, go, rust, docker, env names, git totals, file types, systemd ...",
+          "line": 36,
+          "specs": [
+            "src/collectors.mjs:11-173"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/collectors.mjs": {
+              "path": "src/collectors.mjs",
+              "blob": "9f50fb8fff75fed90e2b55e695e844f23d8a20b2",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 11,
+                "end": 173,
+                "hash": "d532fede46ba6cae67cf6c12683a6852e372559d"
+              }
+            }
+          }
+        },
+        "82454e38c51f": {
+          "text": "Report: `src/report.mjs` renders the static index as one HTML page or a markdown table.",
+          "line": 37,
+          "specs": [
+            "src/report.mjs:29-40",
+            "src/report.mjs:67-143"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/report.mjs": {
+              "path": "src/report.mjs",
+              "blob": "3c53e8f4b44b550c0691af53f61942694022543f",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 29,
+                "end": 40,
+                "hash": "3f833dce2e1dca9384aa80dcca24e783d02351ce"
+              }
+            },
+            "src/report.mjs:67-143": {
+              "path": "src/report.mjs",
+              "blob": "3c53e8f4b44b550c0691af53f61942694022543f",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 67,
+                "end": 143,
+                "hash": "d05267fff923647a83e9f98e43dd1b5558b4660c"
+              }
+            }
+          }
+        },
+        "b8f9d808dd4f": {
+          "text": "Self checks in CI: the `action` job runs `action.yml`, a composite action that runs `lint` then `check` against this repo's own dossiers.",
+          "line": 38,
+          "specs": [
+            ".github/workflows/ci.yml:34-41",
+            "action.yml:22-44"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            ".github/workflows/ci.yml": {
+              "path": ".github/workflows/ci.yml",
+              "blob": "0365bd111a5ea9a4cb80e27792cda3143ef067fe",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "range": {
+                "start": 34,
+                "end": 41,
+                "hash": "6dee6f6aa106dae6f7b273732165f6ad9ece4deb"
+              }
+            },
+            "action.yml": {
+              "path": "action.yml",
+              "blob": "eb607a165f2c338c58ea6ae06a6fd5b3b3b05a35",
+              "commit": "3a2dfc60b80b019037746e1fef60774559cd18a7",
+              "range": {
+                "start": 22,
+                "end": 44,
+                "hash": "7dd69dee4eb89e1d8a084d5ccd3d5dbeb9a191a2"
+              }
+            }
+          }
+        },
+        "965fb505f013": {
+          "text": "`pin`: load config and dossiers, lint every citation and refuse a doc with errors, record each cited claim's files and hashes against HEAD, set `last_verifie...",
+          "line": 42,
+          "specs": [
+            "src/commands/pin.mjs:9-31",
+            "src/pin.mjs:94-154"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/commands/pin.mjs": {
+              "path": "src/commands/pin.mjs",
+              "blob": "88e1b33d2bc2d2375bf07451355403406a8d1889",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 9,
+                "end": 31,
+                "hash": "7e4a614b8477b804844eedd6d9319f55cae48ec7"
+              }
+            },
+            "src/pin.mjs": {
+              "path": "src/pin.mjs",
+              "blob": "900e079d7c278a212921a55d907f60ef94846e12",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 94,
+                "end": 154,
+                "hash": "23524089d009b029ac3dabac093068be50f997ce"
+              }
+            }
+          }
+        },
+        "a0e9d9386301": {
+          "text": "`check`: load the lock, expand each claim's sources against the HEAD tree, and compare. A whole file is compared by blob id, a line range by a hash of just t...",
+          "line": 43,
+          "specs": [
+            "src/check.mjs:26-72",
+            "src/pin.mjs:12",
+            "src/pin.mjs:49-64"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/check.mjs": {
+              "path": "src/check.mjs",
+              "blob": "5b4dfe1328e578fc4dffdfbfd81de7c051f1b2ae",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 26,
+                "end": 72,
+                "hash": "d7cfe4c95e14104bc1d60e4aed8cdd602514ebac"
+              }
+            },
+            "src/pin.mjs": {
+              "path": "src/pin.mjs",
+              "blob": "900e079d7c278a212921a55d907f60ef94846e12",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 12,
+                "end": 12,
+                "hash": "a8f115f92734b73fa697230cae08eccfd224021e"
+              }
+            },
+            "src/pin.mjs:49-64": {
+              "path": "src/pin.mjs",
+              "blob": "900e079d7c278a212921a55d907f60ef94846e12",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 49,
+                "end": 64,
+                "hash": "5d17a57fb7e0dd28eed712547a56ade4bd4b9696"
+              }
+            }
+          }
+        },
+        "6bc3e86f7dc2": {
+          "text": "A range whose lines are unchanged but sit elsewhere is `moved`, not `stale`, and a deleted or renamed file or removed key is `broken`.",
+          "line": 44,
+          "specs": [
+            "src/check.mjs:26-72"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/check.mjs": {
+              "path": "src/check.mjs",
+              "blob": "5b4dfe1328e578fc4dffdfbfd81de7c051f1b2ae",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 26,
+                "end": 72,
+                "hash": "d7cfe4c95e14104bc1d60e4aed8cdd602514ebac"
+              }
+            }
+          }
+        },
+        "e5ecb8877f79": {
+          "text": "For stale and broken claims `check` adds the commits since the pin, a diffstat and rename detection with a few batched git calls per doc, not one per claim.",
+          "line": 45,
+          "specs": [
+            "src/check.mjs:174-202"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/check.mjs": {
+              "path": "src/check.mjs",
+              "blob": "5b4dfe1328e578fc4dffdfbfd81de7c051f1b2ae",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 174,
+                "end": 202,
+                "hash": "cf6a0a2b33cb1cfc6dee75fd0ec4e1731d7ce8d6"
+              }
+            }
+          }
+        },
+        "258c11b15a3a": {
+          "text": "`check` exits 1 when a state named in `--fail-on` is present, which defaults to `stale,broken`.",
+          "line": 46,
+          "specs": [
+            "src/commands/check.mjs:18-37"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/commands/check.mjs": {
+              "path": "src/commands/check.mjs",
+              "blob": "f63c4b469f1b15eea87a38cf8bad4e49e11f7e9d",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 18,
+                "end": 37,
+                "hash": "adec087dbee46b822adccd6563c21c354547011f"
+              }
+            }
+          }
+        },
+        "23a53341ba46": {
+          "text": "`queue`: run `check`, take the docs with stale or broken claims, skip any inside the cooldown or past the daily cap, and write one task file each, optionally...",
+          "line": 47,
+          "specs": [
+            "src/commands/queue.mjs:36-93"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/commands/queue.mjs": {
+              "path": "src/commands/queue.mjs",
+              "blob": "91f37ea70fedd15dbfdecd7df8b66b7b89d6da50",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 36,
+                "end": 93,
+                "hash": "f2b42bb5fdf5fa5a0eb59c40aad12f712235c3c5"
+              }
+            }
+          }
+        },
+        "7cfd601aff7a": {
+          "text": "`auto` replaces only the text between the auto markers with collector output, and appends a block when the doc has none.",
+          "line": 48,
+          "specs": [
+            "src/commands/auto.mjs:8-18"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/commands/auto.mjs": {
+              "path": "src/commands/auto.mjs",
+              "blob": "9aaf85bf05140a2b32fd20db9ab55f148fca3c59",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 8,
+                "end": 18,
+                "hash": "d2522877c0aaf23d7079b7c4c3087545e0caa2ed"
+              }
+            }
+          }
+        },
+        "c5ec3b42a0b9": {
+          "text": "The lock, `.dossier-lock.json`, sits in the dossiers folder: version 1, then per doc a pin time, the HEAD at the pin and a record per claim.",
+          "line": 52,
+          "specs": [
+            "src/lock.mjs:5",
+            "src/lock.mjs:21-25",
+            "src/pin.mjs:94-154"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/lock.mjs": {
+              "path": "src/lock.mjs",
+              "blob": "f1574a1fdd009ba52995d4e60edc3e039a27e34f",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 5,
+                "end": 5,
+                "hash": "09b97f8fa2f6667f66bf4f187ffdbf17a47d7bb2"
+              }
+            },
+            "src/lock.mjs:21-25": {
+              "path": "src/lock.mjs",
+              "blob": "f1574a1fdd009ba52995d4e60edc3e039a27e34f",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 21,
+                "end": 25,
+                "hash": "754905a89e547d9330d7a186efaf1001e4139f2d"
+              }
+            },
+            "src/pin.mjs": {
+              "path": "src/pin.mjs",
+              "blob": "900e079d7c278a212921a55d907f60ef94846e12",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 94,
+                "end": 154,
+                "hash": "23524089d009b029ac3dabac093068be50f997ce"
+              }
+            }
+          }
+        },
+        "5c9f96a59c54": {
+          "text": "Queue state, `.dossier-state.json`, sits beside it and holds when each doc was last queued and how many tasks went out today.",
+          "line": 53,
+          "specs": [
+            "src/lock.mjs:6",
+            "src/commands/queue.mjs:57-92"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/lock.mjs": {
+              "path": "src/lock.mjs",
+              "blob": "f1574a1fdd009ba52995d4e60edc3e039a27e34f",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 6,
+                "end": 6,
+                "hash": "1736a1d2c18afefc26663651413506ab6f9b2b4f"
+              }
+            },
+            "src/commands/queue.mjs": {
+              "path": "src/commands/queue.mjs",
+              "blob": "91f37ea70fedd15dbfdecd7df8b66b7b89d6da50",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 57,
+                "end": 92,
+                "hash": "d95fbdd766c42a870d5309ada5ec222ad58c11ed"
+              }
+            }
+          }
+        },
+        "dad17ee665bb": {
+          "text": "Task files go to `dossier-tasks` unless `--out` says otherwise, and the report goes to `index.html` unless `--out` says otherwise.",
+          "line": 54,
+          "specs": [
+            "src/commands/queue.mjs:22",
+            "src/commands/report.mjs:19"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/commands/queue.mjs": {
+              "path": "src/commands/queue.mjs",
+              "blob": "91f37ea70fedd15dbfdecd7df8b66b7b89d6da50",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 22,
+                "end": 22,
+                "hash": "aa953b4cf1408ac11097192ca911d794205b1dcc"
+              }
+            },
+            "src/commands/report.mjs": {
+              "path": "src/commands/report.mjs",
+              "blob": "25382686463a7ea30a5011f4f67eff764bfeaca0",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 19,
+                "end": 19,
+                "hash": "5f9295a3587f4d5c1c5457936856b1ac2c90a863"
+              }
+            }
+          }
+        },
+        "fe6c4fe46926": {
+          "text": "There is no database, cache or other state. Every git read is against `HEAD`, so uncommitted edits are not seen.",
+          "line": 55,
+          "specs": [
+            "src/git.mjs:48-58",
+            "src/commands/pin.mjs:28"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/git.mjs": {
+              "path": "src/git.mjs",
+              "blob": "15fa3f1bf1d41d886f3a95950fc6845be7eb87bf",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 48,
+                "end": 58,
+                "hash": "b5e1255d49e823d744afbf0f323f0c51f3614c2b"
+              }
+            },
+            "src/commands/pin.mjs": {
+              "path": "src/commands/pin.mjs",
+              "blob": "88e1b33d2bc2d2375bf07451355403406a8d1889",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 28,
+                "end": 28,
+                "hash": "70dffd5f6510a5b36f7f4bbc723d24cc181a547d"
+              }
+            }
+          }
+        },
+        "b069055e6246": {
+          "text": "This repo pins its docs from `dossiers/`: the self dossier plus links to `AGENTS.md` and `docs/ARCHITECTURE.md`.",
+          "line": 56,
+          "specs": [
+            "dossier-scribe.json"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "dossier-scribe.json": {
+              "path": "dossier-scribe.json",
+              "blob": "64af1923e4241168fb787ea068ab3196937ab42f",
+              "commit": "2634c4a75a5a81d15ec9b1e3992b055921afba47"
+            }
+          }
+        },
+        "0e0239142e2d": {
+          "text": "No login, tokens or roles: it is a local CLI that runs with the caller's file and git permissions. Cited paths must be relative to the repo and cannot contai...",
+          "line": 60,
+          "specs": [
+            "src/claims.mjs:127-159"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/claims.mjs": {
+              "path": "src/claims.mjs",
+              "blob": "407a34a7db853c989e28b55ad9cadc3610923141",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 127,
+                "end": 159,
+                "hash": "ed076cd5b7cc23d83c010b4e26c24160e11ab310"
+              }
+            }
+          }
+        },
+        "fed0dcd830d3": {
+          "text": "It calls none: no network and no model. It spawns the local `git` binary and, for `queue --dispatch-cmd`, a shell command the user supplies.",
+          "line": 64,
+          "specs": [
+            "src/git.mjs:13-17",
+            "src/commands/queue.mjs:75-80",
+            "CONTRIBUTING.md:8"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/git.mjs": {
+              "path": "src/git.mjs",
+              "blob": "15fa3f1bf1d41d886f3a95950fc6845be7eb87bf",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 13,
+                "end": 17,
+                "hash": "504cb590c2dfd266f8123fcd2d48dae51f6550d6"
+              }
+            },
+            "src/commands/queue.mjs": {
+              "path": "src/commands/queue.mjs",
+              "blob": "91f37ea70fedd15dbfdecd7df8b66b7b89d6da50",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 75,
+                "end": 80,
+                "hash": "fe507cf100ec141cbf54d9bd189245a22725142d"
+              }
+            },
+            "CONTRIBUTING.md": {
+              "path": "CONTRIBUTING.md",
+              "blob": "11df8d8eed041e2fe557eb89a145b6e7093a91f3",
+              "commit": "f903a14f6b4fb1a34477e565bfc4b76c210b7942",
+              "range": {
+                "start": 8,
+                "end": 8,
+                "hash": "6e5aa6e76e79004565483cc3855bec1d8ac292bf"
+              }
+            }
+          }
+        },
+        "402c0eec5807": {
+          "text": "The env collector records variable names from `.env.example` style files and never their values.",
+          "line": 65,
+          "specs": [
+            "src/collectors.mjs:125-138"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/collectors.mjs": {
+              "path": "src/collectors.mjs",
+              "blob": "9f50fb8fff75fed90e2b55e695e844f23d8a20b2",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 125,
+                "end": 138,
+                "hash": "ffb6ecbf8264525a6b5d77dcfc8e6d257642a0e3"
+              }
+            }
+          }
+        },
+        "d21ff6d171c3": {
+          "text": "`DSCRIBE_NOW` overrides the clock for tests. The dispatch command gets `DSCRIBE_SLUG` and `DSCRIBE_TASK_FILE`.",
+          "line": 66,
+          "specs": [
+            "src/util.mjs:5-12",
+            "src/commands/queue.mjs:75-78"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "src/util.mjs": {
+              "path": "src/util.mjs",
+              "blob": "ddfb02ad5dd71dafa60c88981b5a0b4965c882d5",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 5,
+                "end": 12,
+                "hash": "5cac9c0834866a13272717d4b916fe7744ceda42"
+              }
+            },
+            "src/commands/queue.mjs": {
+              "path": "src/commands/queue.mjs",
+              "blob": "91f37ea70fedd15dbfdecd7df8b66b7b89d6da50",
+              "commit": "99008f4af1a62791248cacbfeb51be4ac8065496",
+              "range": {
+                "start": 75,
+                "end": 78,
+                "hash": "96f66022e6c7e1d0840d16c6f7202d37bd994b55"
+              }
+            }
+          }
+        },
+        "35da4bd2dfde": {
+          "text": "Release automation, which is not part of the tool: `scripts/release.mjs` asks the npm registry and the `gh` CLI what is already published, and the publish wo...",
+          "line": 67,
+          "specs": [
+            "scripts/release.mjs:83-95",
+            ".github/workflows/publish.yml:50-56"
+          ],
+          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "files": {
+            "scripts/release.mjs": {
+              "path": "scripts/release.mjs",
+              "blob": "e70ecb0f7980b04b002e50593e19d88c5c319c69",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 83,
+                "end": 95,
+                "hash": "5e035959f1a82165712bacd0a8ca992c69631ff0"
+              }
+            },
+            ".github/workflows/publish.yml": {
+              "path": ".github/workflows/publish.yml",
+              "blob": "1292ee066a6372b2e48b3f190bd1186a49d9823c",
+              "commit": "895e61a61c0d679c9badad64b5535580738efd91",
+              "range": {
+                "start": 50,
+                "end": 56,
+                "hash": "81bc6cb1b929eda0abdadc6ebbe73ee299238341"
+              }
+            }
+          }
+        }
+      },
+      "pinnedAt": "2026-11-22T08:59:58.786Z",
+      "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47"
     }
   }
 }
