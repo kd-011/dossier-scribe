@@ -1,0 +1,14 @@
+# dossier-scribe: decisions
+
+Why the project is the way it is, newest first. One entry per decision: the date it was made, what was decided, and why. Entries are records: when a decision stops being true, leave it and add `Superseded YYYY-MM-DD: <what replaced it>.` to its end, then add the new decision above.
+
+The dossier for this project had no Decisions section, so these were reconstructed on 2026-11-22 from the changelog, commit messages and workflow comments. Each is dated by the commit or release that made it and checked against the code. Where no reason was written down, the entry says so.
+
+- 2026-11-22: This project's own docs (AGENTS.md, docs/ARCHITECTURE.md) are pinned through the `dossiers/` folder the config already names, as links beside the existing self dossier. README.md stands in for a product requirements doc. Why: the tool reads one flat folder, and the README and the existing self dossier already cover what a PRD would.
+- 2026-11-10: The weekly upkeep workflow installs dossier-scribe from the `v0.2.1` release tag, not from the checkout. Why: v0.1.0 cannot read `path#key` citations (commit message). It is bumped by hand in a reviewed change.
+- 2026-11-09: Ship a GitHub Action that runs `lint` then `check`, and have CI run it on this repo's own dossier. Why: so a stale claim or a malformed citation fails the step (`action.yml`, 0.2.1 changelog).
+- 2026-11-03: Release is a merge. Raising the version in `package.json` on main runs the publish workflow, which publishes to npm and makes the GitHub Release, and skips npm with a notice while there is no `NPM_TOKEN` secret and the package is not on npm. Why: re-running a failed run finishes what is left, so a failed release step needs no new version (workflow header comment).
+- 2026-11-03: Cite JSON values with `path#key`, and report lines that only moved as `MOVED` instead of `STALE`. Why: pinning p-limit and express a year back flagged 22 of 28 claims on 0.1.0 and 19 were still true (commit message, docs/trials.md).
+- 2026-11-02: Dependabot updates GitHub Actions weekly with a seven-day cooldown. Patch and minor updates, and any update to an action from the `actions/` organisation, merge on their own once the required checks pass. Other majors wait for a person. Why: not recorded.
+- 2026-11-01: The tool compares hashes against git and never asks a model whether a claim is still true. Why: a model costs money and varies run to run, and a hash can show a cited file changed but not that the sentence is wrong, so a person or agent rewrites the claim (README, docs/alternatives.md).
+- 2026-11-01: Zero runtime and dev dependencies, Node built-ins only, no network or model calls, and tests build real temporary git repos instead of mocking git. Why: not recorded beyond CONTRIBUTING.md listing them as ground rules.

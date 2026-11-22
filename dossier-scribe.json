@@ -1,5 +1,10 @@
 {
   "dossiers": "dossiers",
   "reposRoot": ".",
+  "requireCitations": [
+    "Features", "Architecture", "Data", "Deploy",
+    "Components", "Data flow", "Storage", "Auth", "External services",
+    "Commands", "Conventions", "Traps"
+  ],
   "collectors": ["package"]
 }
