@@ -69,3 +69,10 @@ No login, tokens or roles: it is a local CLI that runs with the caller's file an
 ## Unverified
 
 - None.
+
+## Generated facts
+
+<!-- auto:start -->
+- package: dossier-scribe 0.2.1
+- npm scripts (1): test
+<!-- auto:end -->

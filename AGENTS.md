@@ -42,7 +42,7 @@ The doc index is docs/README.md. Read docs/ARCHITECTURE.md before changing struc
 - A claim's id is a hash of its normalised text, so rewording a claim shows the old one as `REMOVED` and the new one as `NEW` until you re-pin. <!-- src: src/claims.mjs:15-17 -->
 - The frontmatter parser takes plain `key: value` lines and flat inline lists only. Nesting, block lists and trailing comments are errors. <!-- src: src/frontmatter.mjs:1-7 -->
 - The loader skips files starting with `.` or `_` and any `readme.md`, so those in `dossiers/` are never read as dossiers. <!-- src: src/dossiers.mjs:26-27 -->
-- `auto` appends an auto block to any dossier that has none, and the weekly upkeep workflow runs `auto --check` over every file in `dossiers/`. Check the linked docs there when you change that workflow or the folder. <!-- src: src/commands/auto.mjs:15, .github/workflows/upkeep.yml:70 -->
+- The weekly upkeep workflow runs `auto --check` over every file in `dossiers/`, and `auto` appends an auto block to any doc that has none. So AGENTS.md and docs/ARCHITECTURE.md carry a generated facts block: after a version or script change in `package.json`, run `node bin/dossier-scribe.mjs auto` on them or that job reports them out of date. <!-- src: src/commands/auto.mjs:15, .github/workflows/upkeep.yml:70 -->
 - The weekly upkeep workflow installs dossier-scribe from a pinned release tag, not from the checkout, so a new command or flag is not seen there until the tag is bumped in a reviewed change. <!-- src: .github/workflows/upkeep.yml:62 -->
 - Merging a change to `package.json` on main starts the publish workflow, which releases any version npm or GitHub does not have yet. Do not bump the version by accident. <!-- src: .github/workflows/publish.yml:20-23, scripts/release.mjs:33-47 -->
 - `package.json#files` lists what npm ships: `bin`, `src`, `examples`, LICENSE and README.md. `docs/` and `dossiers/` are not in the package. <!-- src: package.json#files -->
@@ -50,3 +50,10 @@ The doc index is docs/README.md. Read docs/ARCHITECTURE.md before changing struc
 ## Unverified
 
 - Whether Windows works. The README says it is untested. <!-- src: README.md:68 -->
+
+## Generated facts
+
+<!-- auto:start -->
+- package: dossier-scribe 0.2.1
+- npm scripts (1): test
+<!-- auto:end -->

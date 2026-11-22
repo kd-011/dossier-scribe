@@ -394,7 +394,7 @@
           "specs": [
             "package.json#scripts.test"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "package.json#scripts.test": {
               "path": "package.json",
@@ -414,7 +414,7 @@
           "specs": [
             "CONTRIBUTING.md:15-17"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -435,7 +435,7 @@
             "package.json#bin",
             "bin/dossier-scribe.mjs:1-4"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "package.json#bin": {
               "path": "package.json",
@@ -466,7 +466,7 @@
             "src/commands/demo.mjs:35",
             "CONTRIBUTING.md:17"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/commands/demo.mjs": {
               "path": "src/commands/demo.mjs",
@@ -497,7 +497,7 @@
             "package.json#scripts",
             ".github/workflows/ci.yml:18-32"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "package.json#scripts": {
               "path": "package.json",
@@ -529,7 +529,7 @@
             ".github/workflows/ci.yml:34-41",
             "src/lock.mjs:5"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "dossier-scribe.json": {
               "path": "dossier-scribe.json",
@@ -564,7 +564,7 @@
           "specs": [
             "scripts/render-assets.mjs:1-2"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "scripts/render-assets.mjs": {
               "path": "scripts/render-assets.mjs",
@@ -585,7 +585,7 @@
             "CONTRIBUTING.md:42",
             ".github/workflows/publish.yml:20-23"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -617,7 +617,7 @@
             "package.json#engines.node",
             "test/cli.test.mjs:77-84"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "package.json#type": {
               "path": "package.json",
@@ -658,7 +658,7 @@
             "src/cli.mjs:33-43",
             "src/commands/lint.mjs:5"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/cli.mjs": {
               "path": "src/cli.mjs",
@@ -689,7 +689,7 @@
             "src/cli.mjs:59-61",
             "src/commands/check.mjs:37"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/cli.mjs": {
               "path": "src/cli.mjs",
@@ -720,7 +720,7 @@
             "CONTRIBUTING.md:8",
             "src/dossiers.mjs:92-100"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -751,7 +751,7 @@
             "test/helpers.mjs:1",
             "CONTRIBUTING.md:9"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "test/helpers.mjs": {
               "path": "test/helpers.mjs",
@@ -781,7 +781,7 @@
           "specs": [
             "CONTRIBUTING.md:20"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -801,7 +801,7 @@
           "specs": [
             "test/hygiene.test.mjs:9-32"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "test/hygiene.test.mjs": {
               "path": "test/hygiene.test.mjs",
@@ -821,7 +821,7 @@
           "specs": [
             "CONTRIBUTING.md:26"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "CONTRIBUTING.md": {
               "path": "CONTRIBUTING.md",
@@ -841,7 +841,7 @@
           "specs": [
             "test/kit.test.mjs:36-55"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "test/kit.test.mjs": {
               "path": "test/kit.test.mjs",
@@ -862,7 +862,7 @@
             "dossier-scribe.json",
             "src/dossiers.mjs:26-27"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "dossier-scribe.json": {
               "path": "dossier-scribe.json",
@@ -888,7 +888,7 @@
             "src/git.mjs:48-58",
             "src/commands/pin.mjs:28"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/git.mjs": {
               "path": "src/git.mjs",
@@ -918,7 +918,7 @@
           "specs": [
             "src/check.mjs:252"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/check.mjs": {
               "path": "src/check.mjs",
@@ -938,7 +938,7 @@
           "specs": [
             "src/claims.mjs:49-55"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/claims.mjs": {
               "path": "src/claims.mjs",
@@ -958,7 +958,7 @@
           "specs": [
             "src/claims.mjs:15-17"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/claims.mjs": {
               "path": "src/claims.mjs",
@@ -978,7 +978,7 @@
           "specs": [
             "src/frontmatter.mjs:1-7"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/frontmatter.mjs": {
               "path": "src/frontmatter.mjs",
@@ -998,7 +998,7 @@
           "specs": [
             "src/dossiers.mjs:26-27"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/dossiers.mjs": {
               "path": "src/dossiers.mjs",
@@ -1012,14 +1012,14 @@
             }
           }
         },
-        "7c80f578724e": {
-          "text": "`auto` appends an auto block to any dossier that has none, and the weekly upkeep workflow runs `auto --check` over every file in `dossiers/`. Check the linke...",
+        "34af2ca8a906": {
+          "text": "The weekly upkeep workflow runs `auto --check` over every file in `dossiers/`, and `auto` appends an auto block to any doc that has none. So AGENTS.md and do...",
           "line": 45,
           "specs": [
             "src/commands/auto.mjs:15",
             ".github/workflows/upkeep.yml:70"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/commands/auto.mjs": {
               "path": "src/commands/auto.mjs",
@@ -1049,7 +1049,7 @@
           "specs": [
             ".github/workflows/upkeep.yml:62"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             ".github/workflows/upkeep.yml": {
               "path": ".github/workflows/upkeep.yml",
@@ -1070,7 +1070,7 @@
             ".github/workflows/publish.yml:20-23",
             "scripts/release.mjs:33-47"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             ".github/workflows/publish.yml": {
               "path": ".github/workflows/publish.yml",
@@ -1100,7 +1100,7 @@
           "specs": [
             "package.json#files"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "package.json#files": {
               "path": "package.json",
@@ -1120,7 +1120,7 @@
           "specs": [
             "README.md:68"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "README.md": {
               "path": "README.md",
@@ -1135,8 +1135,8 @@
           }
         }
       },
-      "pinnedAt": "2026-11-22T08:59:58.713Z",
-      "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47"
+      "pinnedAt": "2026-11-22T09:02:36.886Z",
+      "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099"
     },
     "dossier-scribe-architecture": {
       "claims": {
@@ -1148,7 +1148,7 @@
             "package.json#engines.node",
             "test/cli.test.mjs:77-84"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "package.json#type": {
               "path": "package.json",
@@ -1189,7 +1189,7 @@
             "bin/dossier-scribe.mjs:1-4",
             "src/cli.mjs:45-65"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "bin/dossier-scribe.mjs": {
               "path": "bin/dossier-scribe.mjs",
@@ -1220,7 +1220,7 @@
             "src/cli.mjs:33-43",
             "src/cli.mjs:54"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/cli.mjs": {
               "path": "src/cli.mjs",
@@ -1250,7 +1250,7 @@
           "specs": [
             "src/config.mjs:7-41"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/config.mjs": {
               "path": "src/config.mjs",
@@ -1272,7 +1272,7 @@
             "src/frontmatter.mjs:19-54",
             "src/claims.mjs:19-121"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/dossiers.mjs": {
               "path": "src/dossiers.mjs",
@@ -1315,7 +1315,7 @@
             "src/git.mjs:63-67",
             "src/git.mjs:93-121"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/git.mjs": {
               "path": "src/git.mjs",
@@ -1366,7 +1366,7 @@
             "src/pin.mjs:94-154",
             "src/check.mjs:26-172"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/pin.mjs": {
               "path": "src/pin.mjs",
@@ -1396,7 +1396,7 @@
           "specs": [
             "src/lint.mjs:14-88"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/lint.mjs": {
               "path": "src/lint.mjs",
@@ -1417,7 +1417,7 @@
             "src/task.mjs:18-144",
             "src/commands/queue.mjs:11-15"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/task.mjs": {
               "path": "src/task.mjs",
@@ -1447,7 +1447,7 @@
           "specs": [
             "src/collectors.mjs:11-173"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/collectors.mjs": {
               "path": "src/collectors.mjs",
@@ -1468,7 +1468,7 @@
             "src/report.mjs:29-40",
             "src/report.mjs:67-143"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/report.mjs": {
               "path": "src/report.mjs",
@@ -1499,7 +1499,7 @@
             ".github/workflows/ci.yml:34-41",
             "action.yml:22-44"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             ".github/workflows/ci.yml": {
               "path": ".github/workflows/ci.yml",
@@ -1530,7 +1530,7 @@
             "src/commands/pin.mjs:9-31",
             "src/pin.mjs:94-154"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/commands/pin.mjs": {
               "path": "src/commands/pin.mjs",
@@ -1562,7 +1562,7 @@
             "src/pin.mjs:12",
             "src/pin.mjs:49-64"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/check.mjs": {
               "path": "src/check.mjs",
@@ -1602,7 +1602,7 @@
           "specs": [
             "src/check.mjs:26-72"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/check.mjs": {
               "path": "src/check.mjs",
@@ -1622,7 +1622,7 @@
           "specs": [
             "src/check.mjs:174-202"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/check.mjs": {
               "path": "src/check.mjs",
@@ -1642,7 +1642,7 @@
           "specs": [
             "src/commands/check.mjs:18-37"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/commands/check.mjs": {
               "path": "src/commands/check.mjs",
@@ -1662,7 +1662,7 @@
           "specs": [
             "src/commands/queue.mjs:36-93"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/commands/queue.mjs": {
               "path": "src/commands/queue.mjs",
@@ -1682,7 +1682,7 @@
           "specs": [
             "src/commands/auto.mjs:8-18"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/commands/auto.mjs": {
               "path": "src/commands/auto.mjs",
@@ -1704,7 +1704,7 @@
             "src/lock.mjs:21-25",
             "src/pin.mjs:94-154"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/lock.mjs": {
               "path": "src/lock.mjs",
@@ -1745,7 +1745,7 @@
             "src/lock.mjs:6",
             "src/commands/queue.mjs:57-92"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/lock.mjs": {
               "path": "src/lock.mjs",
@@ -1776,7 +1776,7 @@
             "src/commands/queue.mjs:22",
             "src/commands/report.mjs:19"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/commands/queue.mjs": {
               "path": "src/commands/queue.mjs",
@@ -1807,7 +1807,7 @@
             "src/git.mjs:48-58",
             "src/commands/pin.mjs:28"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/git.mjs": {
               "path": "src/git.mjs",
@@ -1837,7 +1837,7 @@
           "specs": [
             "dossier-scribe.json"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "dossier-scribe.json": {
               "path": "dossier-scribe.json",
@@ -1852,7 +1852,7 @@
           "specs": [
             "src/claims.mjs:127-159"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/claims.mjs": {
               "path": "src/claims.mjs",
@@ -1874,7 +1874,7 @@
             "src/commands/queue.mjs:75-80",
             "CONTRIBUTING.md:8"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/git.mjs": {
               "path": "src/git.mjs",
@@ -1914,7 +1914,7 @@
           "specs": [
             "src/collectors.mjs:125-138"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/collectors.mjs": {
               "path": "src/collectors.mjs",
@@ -1935,7 +1935,7 @@
             "src/util.mjs:5-12",
             "src/commands/queue.mjs:75-78"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "src/util.mjs": {
               "path": "src/util.mjs",
@@ -1966,7 +1966,7 @@
             "scripts/release.mjs:83-95",
             ".github/workflows/publish.yml:50-56"
           ],
-          "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47",
+          "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099",
           "files": {
             "scripts/release.mjs": {
               "path": "scripts/release.mjs",
@@ -1991,8 +1991,8 @@
           }
         }
       },
-      "pinnedAt": "2026-11-22T08:59:58.786Z",
-      "head": "2634c4a75a5a81d15ec9b1e3992b055921afba47"
+      "pinnedAt": "2026-11-22T09:02:37.026Z",
+      "head": "5dcbfedadfafc0e9d39a670a460ed008d8b38099"
     }
   }
 }
